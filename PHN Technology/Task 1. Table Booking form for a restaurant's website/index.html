@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Reservation Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="banner">
+        <h2>Table Reservation Form <br> BOOK YOUR TABLE NOW <br>▼ </h2>
+        <div class="card-container">
+            <div class="card-img"></div>
+
+            <div class="card-content">
+                <h3>Reservation</h3>
+                <form>
+                    <div class="form-row">
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date" placeholder="mm/dd/yyyy" required>
+
+                        <label for="time">Time:</label>
+                        <input type="time" id="time" name="time" required>
+                    </div>
+
+                    <div class="form-row">
+
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Full Name" required>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Ex-9032455698"
+                            required>
+                    </div>
+
+                    <div class="form-row">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder=" Ex: email@address.com" required>
+                        <label for="email">Guest:</label>
+                        <input type="number" id="guests" name="guests" min="1" max="20" placeholder="Ex: 4" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="notes">Notes:</label>
+                        <textarea id="notes" name="notes" rows="4"
+                            placeholder="Ex: We want to get welcomed with a glass of champaign."></textarea>
+                    </div>
+                    <div class="form-row">
+
+                        <input type="submit" value="MAKE RESERVATION">
+                        <input type="reset" value="CLEAR FORM">
+                    </div>
+
+            </div>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>

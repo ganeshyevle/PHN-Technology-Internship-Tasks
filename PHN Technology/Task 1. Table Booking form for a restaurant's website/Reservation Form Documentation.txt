@@ -1,0 +1,22 @@
+**Reservation Form Documentation**
+
+This form allows customers to make a reservation for a table at our restaurant. Here's how to use it:
+
+Visit the restaurant's website and navigate to the reservation page.
+Fill in the required fields of the reservation form. These fields include:
+Name: Enter your full name
+Email: Enter your email address
+Phone: Enter your phone number
+Date: Select the date of your reservation
+Time: Select the time of your reservation
+Number of Guests: Select the number of guests for your reservation
+Notes: Enter any additional notes or special requests you have for your reservation. For example, you might request a specific table, ask for a high chair for a child, or note any dietary restrictions.
+
+Once you have filled in all the required fields, click the "Submit" button to send your reservation request to the restaurant.
+If you need to change any details of your reservation after submitting the form, please contact the restaurant directly.
+
+#Special Features/Considerations:
+
+The form includes a date picker and time picker to make it easy for customers to select the date and time of their reservation.
+The "Number of Guests" field is a dropdown menu that limits the number of guests to a maximum of 10. This is to ensure that the restaurant can accommodate all guests and maintain a high level of service.
+The "Notes" field is optional, but it allows customers to communicate any additional needs or preferences they have for their reservation. This can help the restaurant provide a better dining experience for their customers.
